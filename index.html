@@ -81,11 +81,10 @@
     }
     /* CSS:BASE-END */
 
-
     /* CSS:HERO-START */
     .site-header {
       position: sticky;
-      top: 0;
+      top:0;
       background: linear-gradient(180deg, rgba(7,16,40,0.92), rgba(7,16,40,0.80));
       backdrop-filter: blur(6px);
       border-bottom: 1px solid rgba(255,255,255,0.03);
@@ -151,7 +150,6 @@
     }
     /* CSS:HERO-END */
 
-
     /* CSS:ABOUT-START */
     .section-about .about-grid {
       display: grid;
@@ -177,7 +175,6 @@
     }
     /* CSS:ABOUT-END */
 
-
     /* CSS:SKILLS-START */
     .skill-list {
       display: grid;
@@ -193,7 +190,6 @@
       border: 1px solid rgba(255,255,255,0.02);
     }
     /* CSS:SKILLS-END */
-
 
     /* CSS:PROJECTS-START */
     .projects-grid {
@@ -214,7 +210,6 @@
     }
     /* CSS:PROJECTS-END */
 
-
     /* CSS:CONTACT-START */
     .contact-grid {
       display: grid;
@@ -233,7 +228,6 @@
       border: 1px solid rgba(255,255,255,0.02);
     }
     /* CSS:CONTACT-END */
-
 
     /* CSS:RWD-START */
     @media (min-width: 480px) {
@@ -292,12 +286,10 @@
               <a class="btn" href="mailto:hello@example.com">聯絡我（Email）</a>
               <a class="btn" href="https://github.com/yourname" target="_blank" rel="noopener">GitHub</a>
             </div>
-
             <p class="muted" style="margin-top:1rem;">
-              （開發者提示）之後會用 Section SDD 的 Prompt 產生正式文案與版面，請把整個 <em>section</em> 程式碼段完整貼回來，取代本區內容以更新 Hero。 
+              （開發者提示）之後會用 Section SDD 的 Prompt 產生正式文案與版面，請把整個 <em>section</em> 程式碼段完整貼回來，取代本區內容以更新 Hero。
             </p>
           </div>
-
           <figure class="hero-figure" aria-hidden="false">
             <img src="https://source.unsplash.com/900x700/?developer,laptop,desk" alt="在筆電前撰寫程式碼的前端開發者" loading="lazy" />
           </figure>
@@ -305,16 +297,12 @@
       </section>
       <!-- SECTION:HERO-END -->
 
-
       <!-- SECTION:ABOUT-START -->
       <section id="about" class="section section-about" aria-labelledby="about-heading">
         <div class="container">
           <div class="about-grid">
-
-            <!-- ★★★ 新 ABOUT 內容：已依照 SDD 全面替換 ★★★ -->
             <div class="about-card">
               <h2 id="about-heading" class="section-title">關於我</h2>
-
               <p>我是一位機器學習工程師，專注於將 AI 技術真正落地到產品中。擅長從資料、模型到應用的端到端流程，特別喜歡把想法快速轉成能用的工具，包含 LLM、MLOps、資料分析與 AI Builder 相關技術。</p>
 
               <p>出身化工背景，但逐漸發現自己對資料、產品與使用者故事更有熱情。做事風格偏向「邏輯＋直覺」型：能快速抓住需求、整理架構，並把複雜的問題拆成可實作的小步驟。同時我也喜歡教學、整理知識，以及打造能真正幫助人的服務。</p>
@@ -324,23 +312,18 @@
                 <li>· 能跨團隊溝通，快速掌握需求核心並提出更理想的方案</li>
                 <li>· 具備產品思維，能兼顧技術深度與使用者體驗</li>
               </ul>
-
               <div style="margin-top:1rem; display:flex; gap:0.6rem; flex-wrap:wrap;">
                 <a class="btn" href="#projects">查看作品集</a>
                 <a class="btn" href="#contact">聯絡我</a>
               </div>
             </div>
-
             <aside class="about-avatar">
               <img src="https://source.unsplash.com/500x400/?engineer,coding" alt="工程師正在撰寫程式碼的場景" loading="lazy" />
             </aside>
-            <!-- ★★★ 新 ABOUT 區塊結束 ★★★ -->
-
           </div>
         </div>
       </section>
       <!-- SECTION:ABOUT-END -->
-
 
       <!-- SECTION:SKILLS-START -->
       <section id="skills" class="section section-skills" aria-labelledby="skills-heading">
@@ -377,9 +360,9 @@
       <!-- SECTION:SKILLS-END -->
 
       <!-- SECTION:PROJECTS-START -->
-      <section id="projects" class="section section-projects" aria-labelledby="projects-heading">
+      <section id="projects" class="section section-projects">
         <div class="container">
-          <h2 id="projects-heading" class="section-title">作品集</h2>
+          <h2 class="section-title">作品集</h2>
           <div class="projects-grid">
             <div class="project-card">
               <div class="project-thumb">
@@ -460,10 +443,9 @@
 
     </main>
 
-    <footer class="section" role="contentinfo">
-      <div class="container" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;">
-        <div class="muted">© <span aria-hidden="true">2025</span> Yuna · Machine Learning Engineer Dev</div>
-        <div class="muted">此為個人網站骨架 — HTML/CSS（無 JavaScript）</div>
+    <footer class="section section-footer" role="contentinfo">
+      <div class="container" style="display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap;">
+        <div class="muted">© <span aria-hidden="true">2025</span> Yuna · Machine Learning Engineer</div>
       </div>
     </footer>
   </div>
